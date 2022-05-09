@@ -90,9 +90,6 @@ show_letter2(i_train[8,])
 # for this demo, show the following
 # 1. linear dense layers with dropout
 # 2. simple convnet with max pooling for translations
-# 3. variations on convnet architecture
-# 4. recurrent neural net on sequential pixels
-# 5. Long-term, short-term memory (LSTM)
 
 # 1. linear stack of layers
 model <- keras_model_sequential() 
